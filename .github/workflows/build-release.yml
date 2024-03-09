@@ -5,6 +5,23 @@ on:
   push:
     paths:
     - 'src/**' # The source code directory is usually different. This is the most basic
+    - 'bedwars-api/**'
+    - 'bedwars-plugin/**'
+    - 'resetadapter_aswm/**'
+    - 'resetadapter_slime/**'
+    - 'resetadapter_slimepaper/**'
+    - 'versionsupport_1_12_R1/**'
+    - 'versionsupport_1_8_R3/**'
+    - 'versionsupport_common/**'
+    - 'versionsupport_v1_16_R3/**'
+    - 'versionsupport_v1_17_R1/**'
+    - 'versionsupport_v1_18_R2/**'
+    - 'versionsupport_v1_19_R2/**'
+    - 'versionsupport_v1_19_R3/**'
+    - 'versionsupport_v1_20_R1/**'
+    - 'versionsupport_v1_20_R2/**'
+    - 'versionsupport_v1_20_R3/**'
+    - 'versionsupport_v1_20_R4/**'
     - 'pom.xml'
     - '.github/workflows/build-release.yml' # Make sure this is the same as the file name
 
