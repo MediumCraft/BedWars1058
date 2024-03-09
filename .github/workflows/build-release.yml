@@ -52,7 +52,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: BedWars1058-${{ steps.short_sha.outputs.sha_short }}
-        path: target/*.jar
+        path: bedwars-plugin/target/*.jar
       continue-on-error: true
     
     - name: Upload artifact
@@ -67,6 +67,8 @@ jobs:
       with:
         files: |
           target/*.jar
+          bedwars-plugin/target/*.jar
+          bedwars-api/target/*.jar
           dev_env.zip
         body: |
           Commit ${{ steps.short_sha.outputs.sha_short }}
